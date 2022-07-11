@@ -1,18 +1,18 @@
 # test-driven-development
-1. initialize project:
+1. Initialize project:
 npm init @vitejs/app
 choose vanilla
-2. add testing framework:
+2. Add testing framework:
 npm install jest
-3. 3.create file  in main:
+3. Create file  in main:
 stack.test.js
-4. in package.json set up new script:
+4. In package.json set up new script:
 "test": "jest --watchAll --verbose --coverage"
 5. Add types of the project(optional):
 npm install @types/jest
-6. 6.Create in test directory:
+6. Create in test directory:
 jsconfig.json
-7. in jsconfig.json type:
+7. In jsconfig.json type:
    {
    "typeAcquisition": {
    "include": [
